@@ -15,3 +15,5 @@ data_folder = '/content/drive/MyDrive/Colab Notebooks/BA820/Data/'
 data = pd.read_csv(data_folder+'okcupid_profiles.csv')
 
 data.info()
+
+data.head()
